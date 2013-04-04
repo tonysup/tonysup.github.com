@@ -1,19 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/2013/04/04/justhello/</loc>
+        <loc>http://tonysup.github.com/blog/2013/04/04/justhello/</loc>
         <lastmod>2013-04-04T18:14:37+08:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-04-04T18:14:37+08:00</lastmod>
+        <loc>http://tonysup.github.com/blog/2013/04/04/from-now-on/</loc>
+        <lastmod>2013-04-04T23:59:09+08:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2013-04-04T18:14:37+08:00</lastmod>
+        <loc>http://tonysup.github.com/blog/archives/</loc>
+        <lastmod>2013-04-04T23:59:09+08:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
+        <loc>http://tonysup.github.com/</loc>
+        <lastmod>2013-04-04T23:59:09+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tonysup.github.com/robots.txt</loc>
         <lastmod>2013-04-04T18:09:47+08:00</lastmod>
     </url>
 </urlset>
