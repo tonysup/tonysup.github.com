@@ -4,7 +4,7 @@
   <title><![CDATA[TonySu Blog]]></title>
   <link href="http://tonysup.github.com/atom.xml" rel="self"/>
   <link href="http://tonysup.github.com/"/>
-  <updated>2013-04-05T02:36:37+08:00</updated>
+  <updated>2013-04-14T22:42:22+08:00</updated>
   <id>http://tonysup.github.com/</id>
   <author>
     <name><![CDATA[TonySu]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一致性]]></title>
+    <link href="http://tonysup.github.com/blog/2013/04/14/%5B%3F%5D-zhi-xing/"/>
+    <updated>2013-04-14T22:41:00+08:00</updated>
+    <id>http://tonysup.github.com/blog/2013/04/14/[?]-zhi-xing</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[from now on]]></title>
