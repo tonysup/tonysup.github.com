@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Blog]]></title>
   <link href="http://tonysup.github.com/atom.xml" rel="self"/>
   <link href="http://tonysup.github.com/"/>
-  <updated>2013-04-21T22:48:22+08:00</updated>
+  <updated>2013-04-29T00:21:27+08:00</updated>
   <id>http://tonysup.github.com/</id>
   <author>
     <name><![CDATA[Tony]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[写在五一前]]></title>
+    <link href="http://tonysup.github.com/blog/2013/04/28/5-dot-1/"/>
+    <updated>2013-04-28T23:51:00+08:00</updated>
+    <id>http://tonysup.github.com/blog/2013/04/28/5-dot-1</id>
+    <content type="html"><![CDATA[<p>终于可以休息几天了，一直以来忙碌的项目，身心疲惫。不过这几天的安排也挺紧凑的，各种早起。先回家看看，然后再换个地方转转，这三天就这样。</p>
+
+
+<p>最近主要思考了以下几个方面：(1）各种业务，处理的大致流程是什么。(2）系统的整体框架是什么，模块的划分和组合。(3)该模块内的核心业务，核心数据结构.（4）系统出彩部分的源代码学习和感悟。</p>
+
+
+<p>今天看了下一个boost库的lock_guard其实这个也是用了一个包装，用类的构造和析构函数包含加锁和释放锁的操作。</p>
+
+
+<p>平时多考虑下这些问题的实现，动手写程序。合适的情况下，尽量使用模板。大过节的，就写这么多了</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[内存]]></title>
