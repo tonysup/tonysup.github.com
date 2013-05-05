@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>内存 - Tony Blog</title>
+  <title>看完房子之后 - Tony Blog</title>
   <meta name="author" content="Tony">
 
   
-  <meta name="description" content="沉下心来，才能有所收获。 这周的心得。 首先，平时使用boost库时，多揣摩下实现原理，想想如果自己实现这种功能的时候，能不能做的出来，实现的方式跟标准库有啥区别。前几天重点看了下lexcial_cast,boost::any的源码。lexical_cast主要是封装stringstream。 &hellip;">
+  <meta name="description" content="今天立夏，天气特别的热。早上以为今个天特好，本打算去南部山区转转，实在太热，然后又有别的事，所以到那后吃了根冰棍就闪回去了。 下午看了看房子从网上，约了几个去看了下。房子很好，价格还算可以，简装修的，就是房产证上的面积少了一小点，没法落户，以后孩子上学是个问题，暂时不考虑了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tonysup.github.com/blog/2013/04/21/memory">
+  <link rel="canonical" href="http://tonysup.github.com/blog/2013/05/05/afterseehouse">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Tony Blog" type="application/atom+xml">
@@ -65,7 +65,7 @@
   
   <header>
     
-      <h1 class="entry-title">内存</h1>
+      <h1 class="entry-title">看完房子之后</h1>
     
     
       <p class="meta">
@@ -81,7 +81,7 @@
   
 
 
-<time datetime="2013-04-21T22:06:00+08:00" pubdate data-updated="true">Apr 21<span>st</span>, 2013</time>
+<time datetime="2013-05-05T21:44:00+08:00" pubdate data-updated="true">May 5<span>th</span>, 2013</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -90,12 +90,17 @@
   </header>
 
 
-<div class="entry-content"><p>  <p>沉下心来，才能有所收获。
-  <p>这周的心得。
-  <p>首先，平时使用boost库时，多揣摩下实现原理，想想如果自己实现这种功能的时候，能不能做的出来，实现的方式跟标准库有啥区别。前几天重点看了下lexcial_cast,boost::any的源码。lexical_cast主要是封装stringstream。boost::any既要保存任何类型的值，又要保存类型的信息，并且还不能是模块类。这就需要一个内部变量，保存该值和类型信息，封装placeholder的派生类保存这些信息。有篇文档，专门讨论这种封装的技能。以后要多思考这些类库的封装原理，包括stl的各种容器，算法啥的。有机会试着用模板封装下业务，体会其类型参数化，偏特化的作用。
-  <p>看了下《oracle 9i&amp;10g编程艺术》，其实这本书08年就买了，肯定全部看完过。不过跟当时刚毕业那会感觉不大一样，原来有些原理技能。当时感觉挺懂，是那么回事。其实现在看看，原来的那些理解是多么的空，多么的“high level”。现在沉下心来看了看前面的配置和数据库提交这块，就很有收获。一是一些细节的环境变量，其实工作这么多年以来真的都没怎么用过，不过很有用。二是，一些作者的实用型工具存储过程，函数啥的，设计的是如此的精妙。自己平时工作中应该试着去写一些实用性工具之类的东西。
-  <p>那天好奇的看了看共享内存模式下的数据的存储，具体的代码没细看，大意应该就是。开辟一片大容量的共享内存，计算好索引及一些头信息，数据的大小，线性的存入内存。其中索引的地方再根据avl算法查找下下标。想想这就是简单的内存数据库啊。只不过根据特定的业务，简化了很多东西，加入了一些特殊的限制。然后又很好奇的搜索了下，很多zhuanli都是跟共享内存有关，内存内存，还是内存。突然有了把内存玩到&#8221;极致&#8221;的感觉，就跟打dota时把某个英雄玩的很飘逸，风骚一样。这帮老大早在2k年就玩的这么好了。
-  <p>想了想，应该沉下心来加强下了。总体路线就是业务+技能，无论从广度还是深度上。然后工作之余，玩完ios开发吧。这mac本不能浪费了。恩，就这样。</p>
+<div class="entry-content"><p>今天立夏，天气特别的热。早上以为今个天特好，本打算去南部山区转转，实在太热，然后又有别的事，所以到那后吃了根冰棍就闪回去了。</p>
+
+
+<p>下午看了看房子从网上，约了几个去看了下。房子很好，价格还算可以，简装修的，就是房产证上的面积少了一小点，没法落户，以后孩子上学是个问题，暂时不考虑了。这算是正了八经的第一次去看房子，两个感叹，一是这帮当地的，拆迁户太high了，一家有的都有四五套房子，根本不差钱。二是钱到用时方恨少。除了房子以外，还得交这钱那钱的，算算也得好几万。哎。。。</p>
+
+
+<p>有个人一起后，做事的动力，思路就多了。原来一个人，有时候可以得过且过。晚上跟老妈打电话，深感做父母的太辛苦了。自己得加快奋斗的脚步。今年还有两个任务，一是买房，二是寻找别的赚钱的途径。</p>
+
+
+<p>这周就工作了两天，技术问题不写了。</p>
+
 </div>
 
 
@@ -118,7 +123,7 @@
   
 
 
-<time datetime="2013-04-21T22:06:00+08:00" pubdate data-updated="true">Apr 21<span>st</span>, 2013</time>
+<time datetime="2013-05-05T21:44:00+08:00" pubdate data-updated="true">May 5<span>th</span>, 2013</time>
       
 
 
@@ -133,10 +138,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/04/14/consistency/" title="Previous Post: consistency">&laquo; consistency</a>
+        <a class="basic-alignment left" href="/blog/2013/04/28/5-dot-1/" title="Previous Post: 写在五一前">&laquo; 写在五一前</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/04/28/5-dot-1/" title="Next Post: 写在五一前">写在五一前 &raquo;</a>
       
     </p>
   </footer>
@@ -202,8 +205,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://tonysup.github.com/blog/2013/04/21/memory/';
-        var disqus_url = 'http://tonysup.github.com/blog/2013/04/21/memory/';
+        var disqus_identifier = 'http://tonysup.github.com/blog/2013/05/05/afterseehouse/';
+        var disqus_url = 'http://tonysup.github.com/blog/2013/05/05/afterseehouse/';
         var disqus_script = 'embed.js';
       
     (function () {
