@@ -4,7 +4,7 @@
   <title><![CDATA[Tony Blog]]></title>
   <link href="http://tonysup.github.com/atom.xml" rel="self"/>
   <link href="http://tonysup.github.com/"/>
-  <updated>2013-05-05T21:58:05+08:00</updated>
+  <updated>2013-08-04T16:45:23+08:00</updated>
   <id>http://tonysup.github.com/</id>
   <author>
     <name><![CDATA[Tony]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[回来了]]></title>
+    <link href="http://tonysup.github.com/blog/2013/08/04/come-back/"/>
+    <updated>2013-08-04T16:07:00+08:00</updated>
+    <id>http://tonysup.github.com/blog/2013/08/04/come-back</id>
+    <content type="html"><![CDATA[<p>买房终于告一段落，从开始看二手房，到最后定下期房，前后两个月多，虽然现在贷款还没批下来。学车也告一段落，等天不热或者来年春天再学吧，反正也不急，现在项目就挺忙的，平时周末也懒的去学。
+<p>开始安心补充基础。目前重点是工作中把用到的技能，整扎实；工作之外把大学那些基础课程补下下吧，尽可能的找一些英文的材料补习。
+<p>工作中重点几个方便:(1)表达式 (2)请求队列 (3)参数内存 (4)简单内存数据库 有空尽可能的自己实现下。
+<p>工作之外的话，先看下SICP和算法基础吧。线性代数看时间吧，有时间的话补补，这块需要的时间也挺多。
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[看完房子之后]]></title>
